@@ -15,7 +15,7 @@ get_header(); ?>
             <h1>Alphagreen <i>Press</i> Centre</h1>
             <div class="contact__row">
                 <div class="col-md-6 col-12">
-                    <div class="contact__title">For enquiries please contact:</div>
+                    <div class="contact__title">Git test:</div>
                     <div class="contact__text">
                         <a href="mailto:alphagreen@shift6.org">alphagreen@shift6.org</a>
                         <a href="mailto:julie@alphagreen.io">julie@alphagreen.io</a>
