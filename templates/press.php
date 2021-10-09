@@ -287,7 +287,6 @@ get_header(); ?>
                 <li><a href="">CBD and Health: Testimonials for the multi-purpose ‘supplement’</a></li>
                 <li><a href="">Alternative Funding Routes for CBD Companies</a></li>
                 <li><a href="">An Overview of the Top Studies and Clinical Trials for CBD</a></li>
-       
             </ul>
         </div>
         <div class="col-md-4 col-12 bottom-menu">
@@ -296,7 +295,6 @@ get_header(); ?>
                 <li><a href="">Expand Your Knowledge of CBD Oil</a></li>
                 <li><a href="">What is CBD oil and its juridical status?</a></li>
                 <li><a href="">What is CBD oil and its juridical status?</a></li>
-           
             </ul>
         </div>
         <div class="col-md-4 col-12 bottom-menu">
@@ -304,7 +302,6 @@ get_header(); ?>
             <ul>
                 <li><a href="">Survey Analysis</a></li>
                 <li><a href="">CBD and Health: Testimonials for the multi-purpose ‘supplement’</a></li>
-
             </ul>
         </div>
    
