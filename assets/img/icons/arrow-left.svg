@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="arrow-right" transform="translate(1.776830, 1.553380)" stroke="#000000" stroke-width="2">
+            <polyline id="Path" transform="translate(2.223335, 4.446660) scale(-1, 1) translate(-2.223335, -4.446660) " points="8.8817842e-16 8.8817842e-16 4.44667 4.44662 8.8817842e-16 8.89332"></polyline>
+        </g>
+    </g>
+</svg>

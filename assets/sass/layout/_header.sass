@@ -1,0 +1,65 @@
+// 
+// Theme Name: New Clean Template
+// _header.sass
+//
+// app/sass/layout/
+//
+
+.header
+    height: 100px
+    .container
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+.nav
+    white-space: nowrap
+    display: flex
+    align-items: center
+    ul
+        list-style-type: none
+        display: flex
+        padding: 0
+        li
+            line-height: 42px
+            padding: 0 15px
+
+.login
+    background-image: url(../img/icons/login.svg)
+    background-repeat: no-repeat
+    background-position: 6px 50%
+    padding: 0 0 0 28px
+    margin: 0 24px 0 0
+    transition: 0.3s
+    &:hover
+        background-position: 0 50%
+.signup
+    color: #fff
+    line-height: 42px
+    background: var(--main)
+    padding: 0 36px
+    transition: 0.3s
+    &:hover
+        background: var(--main__hover)
+
+@media (max-width: 992px)
+    .nav
+        padding: 0 0 40px 0
+        display: none
+        ul
+            flex-direction: column
+        &.active
+            width: 100%
+            background: #fff
+            display: flex
+            flex-direction: column
+            position: absolute
+            top: 100px
+            left: 0
+            z-index: 9
+
+    .login
+        margin: 0 0 20px 0
+
+@media (max-width: 768px)

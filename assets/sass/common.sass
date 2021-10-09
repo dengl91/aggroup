@@ -1,0 +1,191 @@
+// 
+// Theme Name: New Clean Template
+// Version: 3.6
+// Tags: clean, development, html5, sass, jquery, slick.js
+// Description: Clean wordpress theme with slick and visible js function
+// Author: DHL
+// Author URI: telegram @dhljob
+//
+
+:root
+    --font-size: 15px
+    --line-height: normal
+    --text: #1a1a1a
+    --text__light: #75807B
+    --text__light--alt: #C7CFCB
+    --main: #BAAE97
+    --main__hover: #998C74
+    --stroke: #e0e0e0
+    --green: #86C09F
+    --green__dark: #E6F0EA
+    --green__light: #F9FBFA
+    --gray: #ececec
+    --brown: #BAAE97
+    --topbar: #798486
+    --menu: #1a1a1a
+    --footer: #3E4140
+
+body
+    font-family: 'Lato', sans-serif
+    font-size: var(--font-size)
+    color: var(--text)
+    line-height: var(--line-height)
+    background: #fff
+    padding: 0
+    margin: 0
+
+hr
+    background-color: #ccc
+    border: 0
+    height: 1px
+    margin-bottom: 1.5em
+a
+    color: inherit
+    text-decoration: none
+*
+    box-sizing: border-box
+
+section
+    margin: 100px 0
+    &.green
+        background: var(--green__light)
+        padding: 100px 0
+        &:first-of-type
+            margin-top: 0
+        &:last-of-type
+            margin-bottom: 0
+
+[class$=img]
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+[data-bg]
+    background-repeat: no-repeat
+    background-position: 50%
+    background-size: cover
+    &.contain
+        background-size: contain
+
+[class^=col]
+    &:last-child
+        [class$=item]
+            border: none
+
+h1
+    font-size: 52px
+    text-align: center
+    line-height: 60px
+    margin: 0 0 20px 0
+    animation: flowIn 1.4s forwards
+h2
+    font-size: 48px
+    text-align: center
+    line-height: 60px
+    margin: 0 0 30px 0
+    &.animated
+        animation: flowIn 2s forwards
+    span
+        position: relative
+        &::after
+            content: ''
+            width: 104%
+            height: 8px
+            background: var(--green)
+            position: absolute
+            left: -2%
+            bottom: 4px
+            z-index: -1
+h3
+    font-size: 30px
+    text-align: center
+    line-height: 40px
+    margin: 0 0 10px 0
+h4
+    max-width: 780px
+    color: var(--text__light)
+    font-weight: 400
+    text-align: center
+    line-height: 24px
+    letter-spacing: 0.02em
+    margin: 0 auto 64px auto
+    &:last-child
+        margin: 0 auto
+
+i
+    font-weight: normal
+
+@keyframes flowIn
+    0%
+        opacity: 0
+        transform: translateY(-10px)
+        clip-path: polygon(0 0, 0 0, 10% 100%, 0% 100%)
+    50%
+        opacity: 1
+    100%
+        opacity: 1
+        transform: translateY(0)
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)
+
+.footer
+    color: #ffffff80
+    line-height: 28px
+    background: var(--footer)
+    padding: 80px 0
+    &__logo
+        margin: 0 0 15px 0
+    &__title
+        color: #fff
+        font-weight: 700
+        margin: 0 0 10px 0
+    &__link
+        display: block
+    &__copyright
+        font-size: 14px
+        margin: 10px 0
+
+.menu-btn
+    display: none
+
+@media (max-width: 992px)
+    .menu-btn
+        width: 18px
+        height: 24px
+        display: block
+        margin: 0 0 0 auto
+        position: relative
+        z-index: 9
+        cursor: pointer
+    .menu-btn-item
+        width: 100%
+        height: 2px
+        background: var(--text)
+        position: absolute
+        transition: 0.4s
+    .menu-btn-item:first-child
+        top: 4px
+    .menu-btn.active .menu-btn-item:first-child
+        transform: translateY(6px) rotate(45deg)
+    .menu-btn-item:nth-child(2)
+        top: 10px
+    .menu-btn.active .menu-btn-item:nth-child(2)
+        opacity: 0
+    .menu-btn-item:last-child
+        top: 16px
+    .menu-btn.active .menu-btn-item:last-child
+        transform: translateY(-6px) rotate(-45deg)
+
+@media (max-width: 768px)
+    section
+        margin: 40px 0
+
+    h2
+        font-size: 24px
+        line-height: 32px
+
+
+@import layout/header
+@import layout/banner
+@import layout/components
+@import layout/homepage
