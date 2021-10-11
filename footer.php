@@ -42,7 +42,7 @@
                     <a href="" class="footer__link">Anxiety</a>
                 </div>
             </div>
-            <div class="footer__copyright">Copyrights 2021 @ Yawns</div>
+            <div class="footer__copyright">Copyright 2021, Alphagreen Group Limited</div>
         </div>
 	</footer>
 
