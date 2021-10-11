@@ -39,7 +39,10 @@
 
 .slogan
     &__item
+        height: 100%
         background: url(../img/text-bg.svg) no-repeat 50% 0%
+        [class^=col]:first-child &
+            background: url(../img/quote-bg.svg) no-repeat 50% 0%
 
 .version-title
     font-weight: bold
