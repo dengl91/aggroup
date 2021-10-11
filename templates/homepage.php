@@ -15,7 +15,7 @@ get_header(); ?>
             <div class="banner__img">
                 <img
                     src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg"
-                    <?php if ( isBot() ) : ?>
+                    <?php if ( !isBot() ) : ?>
                     data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg"
                     <?php else : ?>
                     data-load="<?php echo $theme_path; ?>/assets/img/main-img.svg"
