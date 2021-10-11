@@ -167,7 +167,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="">
+<section>
     <div class="container">
         <h2>Using our <i>slogan</i></h2>
         <div class="row">
@@ -197,9 +197,9 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="">
+<section>
     <div class="container">
-        <h2> Our<i> innovations incubator</i></h2>
+        <h2> Our <i>innovations incubator</i></h2>
         <div class="row content__row mx-auto">
             <div class="col-md-6 col-12">
                 <div class="content__text">With an abundance of products and brands on the market, it is our
@@ -277,7 +277,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="">
+<section>
     <div class="container">
         <h3>Key studies and guides</h3>
     <div class="row">
