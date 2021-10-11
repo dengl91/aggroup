@@ -113,21 +113,21 @@ get_header(); ?>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">Grow my business</div>
-                        <div class="ready__description">We’re building a platform of technology, tools and resources for sellers. See how you can accelerate your brand.</div>
-                        <a href="" class="ready__link">Learn more</a>
+                        <div class="ready__description">Hyperscale with NUOPTIMA</div>
+                        <a href="https://nuoptima.com/" class="ready__link">Learn more</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">List with Alphagreen</div>
-                        <div class="ready__description">We advise sellers on raising funds. Learn about your financing options.</div>
-                        <a href="" class="ready__link">Learn more</a>
+                        <div class="ready__description">Access global customers with alphagreen.io</div>
+                        <a href="https://alphagreen.io/" class="ready__link">Learn more</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">Sell my business</div>
-                        <div class="ready__description">We buy great businesses. Understand what your business is worth and whether you’re ready to sell.</div>
+                        <div class="ready__description">Sell your business to sector specialists in less than 45 days</div>
                         <a href="" class="ready__link">Learn more</a>
                     </div>
                 </div>
