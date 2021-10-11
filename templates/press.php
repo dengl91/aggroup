@@ -225,55 +225,55 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="">
+<section>
     <div class="container">
-        <h2> Our<i> specialists</i></h2>
-        <div class="glide-team">
-        <div class="glide__track" data-glide-el="track">
-            <div class="glide__slides">
-            <div class="team__item">
-                        <div class="team__img">
-                            <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
-                        </div>
-                        <div class="team__title">Alexej Pikovsky</div>
-                        <div class="team__position">CEO / Founder</div>
-                    </div>
+        <h2> Our <i>specialists</i></h2>
+        <div class="glide glide-team">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
                     <div class="team__item">
-                        <div class="team__img">
-                            <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            <div class="team__img">
+                                <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            </div>
+                            <div class="team__title">Alexej Pikovsky</div>
+                            <div class="team__position">CEO / Founder</div>
                         </div>
-                        <div class="team__title">Alexej Pikovsky</div>
-                        <div class="team__position">CEO / Founder</div>
-                    </div>
-                    <div class="team__item">
-                        <div class="team__img">
-                            <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                        <div class="team__item">
+                            <div class="team__img">
+                                <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            </div>
+                            <div class="team__title">Alexej Pikovsky</div>
+                            <div class="team__position">CEO / Founder</div>
                         </div>
-                        <div class="team__title">Alexej Pikovsky</div>
-                        <div class="team__position">CEO / Founder</div>
-                    </div>
-                    <div class="team__item">
-                        <div class="team__img">
-                            <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                        <div class="team__item">
+                            <div class="team__img">
+                                <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            </div>
+                            <div class="team__title">Alexej Pikovsky</div>
+                            <div class="team__position">CEO / Founder</div>
                         </div>
-                        <div class="team__title">Alexej Pikovsky</div>
-                        <div class="team__position">CEO / Founder</div>
-                    </div>
-                    <div class="team__item">
-                        <div class="team__img">
-                            <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                        <div class="team__item">
+                            <div class="team__img">
+                                <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            </div>
+                            <div class="team__title">Alexej Pikovsky</div>
+                            <div class="team__position">CEO / Founder</div>
                         </div>
-                        <div class="team__title">Alexej Pikovsky</div>
-                        <div class="team__position">CEO / Founder</div>
+                        <div class="team__item">
+                            <div class="team__img">
+                                <img src="<?php echo $theme_path; ?>/assets/img/team-1.png" alt="Alexej Pikovsky">
+                            </div>
+                            <div class="team__title">Alexej Pikovsky</div>
+                            <div class="team__position">CEO / Founder</div>
+                        </div>
                     </div>
-            </div>
-            <div data-glide-el="controls">
-                <div data-glide-dir=">" class="glide__next"></div>
-                <div data-glide-dir="<" class="glide__prev"></div>
+                    <div data-glide-el="controls">
+                        <div data-glide-dir=">" class="glide__next"></div>
+                        <div data-glide-dir="<" class="glide__prev"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
     </div>
 </section>
 
