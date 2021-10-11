@@ -82,7 +82,6 @@ get_header(); ?>
                         <div class="feature__title">Acquire</div>
                         <div class="feature__description">
                             We Acquire high caliber profitable health and wellness brands. We use our data and network to qualify existing products to forecast future growth and automate the management of assets once acquired
-                            <a href="">Amazon FBA Brands</a>
                         </div>
                     </div>
                 </div>
