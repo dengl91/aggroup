@@ -107,6 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
       webVitals.getCLS(console.log);
       webVitals.getFID(console.log);
       webVitals.getLCP(console.log);
+      webVitals.getFCP(console.log);
     }
     document.head.appendChild(script);
 }())
