@@ -98,6 +98,19 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 
+(function() {
+    var script = document.createElement('script');
+    script.src = 'https://unpkg.com/web-vitals/dist/web-vitals.iife.js';
+    script.onload = function() {
+      // When loading `web-vitals` using a classic script, all the public
+      // methods can be found on the `webVitals` global namespace.
+      webVitals.getCLS(console.log);
+      webVitals.getFID(console.log);
+      webVitals.getLCP(console.log);
+    }
+    document.head.appendChild(script);
+}())
+
 // iOS Safari
 document.addEventListener('click', x => 0);[]
 
