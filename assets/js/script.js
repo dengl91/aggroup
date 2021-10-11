@@ -112,6 +112,12 @@ document.addEventListener("DOMContentLoaded", function() {
     document.head.appendChild(script);
 }())
 
+new PerformanceObserver((entryList) => {
+    for (const entry of entryList.getEntriesByName('first-contentful-paint')) {
+      console.log('FCP candidate:', entry.startTime, entry);
+    }
+}).observe({type: 'paint', buffered: true});
+
 // iOS Safari
 document.addEventListener('click', x => 0);[]
 
