@@ -68,8 +68,12 @@ get_header(); ?>
                         <div class="feature__description">
                             We Incubate brands using our marketplace and other sources to inform us on consumer demand. We automate the sales of products across various eCommerce channels, from DTC, on Alphagreen.io, Amazon, affiliates and other channels
                             <div class="feature__logos">
-                                <img src="<?php echo $theme_path; ?>/assets/img/alphagreen.svg" width="215" height="18" alt="Alphagreen">
-                                <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
+                                <a href="https://alphagreen.io/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/alphagreen.svg" width="215" height="18" alt="Alphagreen">
+                                </a>
+                                <a href="https://getyawns.com/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
+                                </a>
                             </div>
                         </div>
                     </div>
