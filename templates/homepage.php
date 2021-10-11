@@ -57,7 +57,7 @@ get_header(); ?>
     <section class="acquire">
         <div class="container">
             <h2>Alphagreen group is a <i>global acquisition</i><br> and incubation platform with <span>a health</span><br> & <span>wellness focus</span></h2>
-            <h4>Own distribution through the Alphagreen.io marketplace, incubated own D2C brands and external distribution through Amazon. Strong deal pipeline of health and wellness stand alone and Amazon FBA brands to hyperscale revenue supported by our marketing and intelligence</h4>
+            <h4>Scale via our own distribution channels and an extensive external omni-channel network</h4>
             <div class="row">
                 <div class="col-md-4 col-12">
                     <div class="feature__item">
@@ -68,9 +68,8 @@ get_header(); ?>
                         <div class="feature__description">
                             We Incubate brands using our marketplace and other sources to inform us on consumer demand. We automate the sales of products across various eCommerce channels, from DTC, on Alphagreen.io, Amazon, affiliates and other channels
                             <div class="feature__logos">
-                                <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
-                                <img src="<?php echo $theme_path; ?>/assets/img/petcan.svg" width="96" height="30" alt="Petcan">
                                 <img src="<?php echo $theme_path; ?>/assets/img/alphagreen.svg" width="215" height="18" alt="Alphagreen">
+                                <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
                             </div>
                         </div>
                     </div>
