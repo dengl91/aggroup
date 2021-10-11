@@ -13,7 +13,18 @@ get_header(); ?>
     <section class="banner">
 		<div class="container">
             <div class="banner__img">
-                <img src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg" data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg" width="1180" height="348" alt="Alphagreen Group" draggable="false">
+                <img
+                    src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg"
+                    <?php if ( isBot() ) : ?>
+                    data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg"
+                    <?php else : ?>
+                    data-load="<?php echo $theme_path; ?>/assets/img/main-img.svg"
+                    <?php endif; ?>
+                    width="1180"
+                    height="348"
+                    alt="Alphagreen Group"
+                    draggable="false"
+                >
             </div>
             <div class="banner__subtitle">We incubate, acquire and scale next generation brands</div>
             <a href="/" class="btn">Growth with us</a>
