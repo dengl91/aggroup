@@ -98,19 +98,11 @@ document.addEventListener("DOMContentLoaded", function() {
     
 });
 
-(function() {
-    var script = document.createElement('script');
-    script.src = 'https://unpkg.com/web-vitals/dist/web-vitals.iife.js';
-    script.onload = function() {
-      // When loading `web-vitals` using a classic script, all the public
-      // methods can be found on the `webVitals` global namespace.
-      webVitals.getCLS(console.log);
-      webVitals.getFID(console.log);
-      webVitals.getLCP(console.log);
-      webVitals.getFCP(console.log);
+new PerformanceObserver((entryList) => {
+    for (const entry of entryList.getEntriesByName('first-contentful-paint')) {
+      console.log('FCP candidate:', entry.startTime, entry);
     }
-    document.head.appendChild(script);
-}())
+}).observe({type: 'paint', buffered: true});
 
 // iOS Safari
 document.addEventListener('click', x => 0);[]
