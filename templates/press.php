@@ -15,7 +15,7 @@ get_header(); ?>
         <h1>Alphagreen <i>Press</i> Centre</h1>
         <div class="contact__row">
             <div class="col-md-6 col-12">
-                <div class="contact__title">Git test:</div>
+                <div class="contact__title">For enquiries please contact:</div>
                 <div class="contact__text">
                     <a href="mailto:alphagreen@shift6.org">alphagreen@shift6.org</a>
                     <a href="mailto:julie@alphagreen.io">julie@alphagreen.io</a>
@@ -282,7 +282,7 @@ get_header(); ?>
         <h3>Key studies and guides</h3>
     <div class="row">
         <div class="col-md-4 col-12 bottom-menu">
-            <h3>blog</h3>
+            <h3>Blog</h3>
             <ul>
                 <li><a href="">CBD and Health: Testimonials for the multi-purpose ‘supplement’</a></li>
                 <li><a href="">Alternative Funding Routes for CBD Companies</a></li>
