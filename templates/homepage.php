@@ -29,7 +29,7 @@ get_header(); ?>
                             <img src="<?php echo $theme_path; ?>/assets/img/icons/grow.svg" alt="Grow">
                         </div>
                         <div class="feature__title">Grow my business</div>
-                        <div class="feature__description">Receive premium pricing from Top Tier financial institutions. Pricing from Top Tier financial institutions.</div>
+                        <div class="feature__description">Benefit from our expertise in performance marketing, SEO and tech expertise</div>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
@@ -38,7 +38,7 @@ get_header(); ?>
                             <img src="<?php echo $theme_path; ?>/assets/img/icons/case.svg" alt="List">
                         </div>
                         <div class="feature__title">List with Alphagreen</div>
-                        <div class="feature__description">With Consulting WP you’ll get no re-quotes, no dealer intervention and fair order execution.</div>
+                        <div class="feature__description">Be part of Europe’s largest marketplace for holistic health</div>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
@@ -47,7 +47,7 @@ get_header(); ?>
                             <img src="<?php echo $theme_path; ?>/assets/img/icons/wallet.svg" alt="Sell">
                         </div>
                         <div class="feature__title">Sell my business</div>
-                        <div class="feature__description">Trade Forex and CFDs with the world’s best trading platforms on your desktop or mobile device.</div>
+                        <div class="feature__description">We acquire high caliber profitable health & wellness brands</div>
                     </div>
                 </div>
             </div>
