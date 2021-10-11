@@ -15,7 +15,7 @@ get_header(); ?>
             <div class="banner__img">
                 <img src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg" data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg" width="1180" height="348" alt="Alphagreen Group" draggable="false">
             </div>
-            <div class="banner__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="banner__subtitle">We incubate, acquire and scale next generation brands</div>
             <a href="/" class="btn">Growth with us</a>
 		</div>
 	</section>
