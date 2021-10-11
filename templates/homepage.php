@@ -92,13 +92,12 @@ get_header(); ?>
                         </div>
                         <div class="feature__title">Scale</div>
                         <div class="feature__description">
-                            We scale brands using our existing expertise in marketing, market intelligence and growth-hacking<br><br>
-                            - Own distribution through <b>Alphagreen.io</b> marketplace<br><br>
-                            - Direct-to-Consumer through standalone websites<br><br>
-                            - External distribution through marketplaces <b>Amazon</b>
+                            We scale brands using our expertise in growth hacking, existing tech infrastructure and an experienced team.<br><br>
+                            Distribution includes via DTC, alphagreen.io and external marketplaces such as Amazon
                             <div class="feature__logos">
-                                <img src="<?php echo $theme_path; ?>/assets/img/nuoptima.svg" width="101" height="26" alt="Nuoptima">
-                                <img src="<?php echo $theme_path; ?>/assets/img/amazon.svg" width="92" height="28" alt="Amazon">
+                                <a href="https://nuoptima.com/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/nuoptima.svg" width="140" height="40" alt="Nuoptima">
+                                </a>
                             </div>
                         </div>
                     </div>
