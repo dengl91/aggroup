@@ -26,23 +26,23 @@
                 </div>
                 <div class="col-lg-2 col-md-6 col-12">
                     <div class="footer__title">About Us</div>
-                    <a href="" class="footer__link">Carreers</a>
-                    <a href="" class="footer__link">Our Team</a>
+                    <a href="/careers" class="footer__link">Carreers</a>
+                    <a href="/our-team" class="footer__link">Our Team</a>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12">
                     <div class="footer__title">How we work</div>
-                    <a href="" class="footer__link">Build</a>
-                    <a href="" class="footer__link">Acquire</a>
-                    <a href="" class="footer__link">Scale</a>
+                    <a href="/how-we-work" class="footer__link">Build</a>
+                    <a href="/how-we-work" class="footer__link">Acquire</a>
+                    <a href="/how-we-work" class="footer__link">Scale</a>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12">
                     <div class="footer__title">Our Sectors</div>
-                    <a href="" class="footer__link">Pain</a>
-                    <a href="" class="footer__link">Sleep</a>
-                    <a href="" class="footer__link">Anxiety</a>
+                    <a href="/our-sectors" class="footer__link">Pain</a>
+                    <a href="/our-sectors" class="footer__link">Sleep</a>
+                    <a href="/our-sectors" class="footer__link">Anxiety</a>
                 </div>
             </div>
-            <div class="footer__copyright">Copyrights 2021 @ Yawns</div>
+            <div class="footer__copyright">Copyright 2021, Alphagreen Group Limited</div>
         </div>
 	</footer>
 

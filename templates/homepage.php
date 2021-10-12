@@ -13,7 +13,18 @@ get_header(); ?>
     <section class="banner">
 		<div class="container">
             <div class="banner__img">
-                <img src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg" data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg" width="1180" height="348" alt="Alphagreen Group" draggable="false">
+                <img
+                    src="<?php echo $theme_path; ?>/assets/img/main-preloader.svg"
+                    <?php if ( !isBot() ) : ?>
+                    data-load="<?php echo $theme_path; ?>/assets/img/main-img_animated.svg"
+                    <?php else : ?>
+                    data-load="<?php echo $theme_path; ?>/assets/img/main-img.svg"
+                    <?php endif; ?>
+                    width="1180"
+                    height="348"
+                    alt="Alphagreen Group"
+                    draggable="false"
+                >
             </div>
             <div class="banner__subtitle">We incubate, acquire and scale next generation brands</div>
             <a href="/" class="btn">Growth with us</a>
@@ -57,7 +68,7 @@ get_header(); ?>
     <section class="acquire">
         <div class="container">
             <h2>Alphagreen group is a <i>global acquisition</i><br> and incubation platform with <span>a health</span><br> & <span>wellness focus</span></h2>
-            <h4>Own distribution through the Alphagreen.io marketplace, incubated own D2C brands and external distribution through Amazon. Strong deal pipeline of health and wellness stand alone and Amazon FBA brands to hyperscale revenue supported by our marketing and intelligence</h4>
+            <h4>Scale via our own distribution channels and an extensive external omni-channel network</h4>
             <div class="row">
                 <div class="col-md-4 col-12">
                     <div class="feature__item">
@@ -68,9 +79,12 @@ get_header(); ?>
                         <div class="feature__description">
                             We Incubate brands using our marketplace and other sources to inform us on consumer demand. We automate the sales of products across various eCommerce channels, from DTC, on Alphagreen.io, Amazon, affiliates and other channels
                             <div class="feature__logos">
-                                <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
-                                <img src="<?php echo $theme_path; ?>/assets/img/petcan.svg" width="96" height="30" alt="Petcan">
-                                <img src="<?php echo $theme_path; ?>/assets/img/alphagreen.svg" width="215" height="18" alt="Alphagreen">
+                                <a href="https://alphagreen.io/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/alphagreen.svg" width="215" height="18" alt="Alphagreen">
+                                </a>
+                                <a href="https://getyawns.com/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/yawns.svg" width="90" height="30" alt="Yawns">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +97,6 @@ get_header(); ?>
                         <div class="feature__title">Acquire</div>
                         <div class="feature__description">
                             We Acquire high caliber profitable health and wellness brands. We use our data and network to qualify existing products to forecast future growth and automate the management of assets once acquired
-                            <a href="">Amazon FBA Brands</a>
                         </div>
                     </div>
                 </div>
@@ -94,13 +107,12 @@ get_header(); ?>
                         </div>
                         <div class="feature__title">Scale</div>
                         <div class="feature__description">
-                            We scale brands using our existing expertise in marketing, market intelligence and growth-hacking<br><br>
-                            - Own distribution through <b>Alphagreen.io</b> marketplace<br><br>
-                            - Direct-to-Consumer through standalone websites<br><br>
-                            - External distribution through marketplaces <b>Amazon</b>
+                            We scale brands using our expertise in growth hacking, existing tech infrastructure and an experienced team.<br><br>
+                            Distribution includes via DTC, alphagreen.io and external marketplaces such as Amazon
                             <div class="feature__logos">
-                                <img src="<?php echo $theme_path; ?>/assets/img/nuoptima.svg" width="101" height="26" alt="Nuoptima">
-                                <img src="<?php echo $theme_path; ?>/assets/img/amazon.svg" width="92" height="28" alt="Amazon">
+                                <a href="https://nuoptima.com/">
+                                    <img src="<?php echo $theme_path; ?>/assets/img/nuoptima.svg" width="140" height="40" alt="Nuoptima">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -116,21 +128,21 @@ get_header(); ?>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">Grow my business</div>
-                        <div class="ready__description">We’re building a platform of technology, tools and resources for sellers. See how you can accelerate your brand.</div>
-                        <a href="" class="ready__link">Learn more</a>
+                        <div class="ready__description">Hyperscale with NUOPTIMA</div>
+                        <a href="https://nuoptima.com/" class="ready__link">Learn more</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">List with Alphagreen</div>
-                        <div class="ready__description">We advise sellers on raising funds. Learn about your financing options.</div>
-                        <a href="" class="ready__link">Learn more</a>
+                        <div class="ready__description">Access global customers with alphagreen.io</div>
+                        <a href="https://alphagreen.io/" class="ready__link">Learn more</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="ready__item">
                         <div class="ready__title">Sell my business</div>
-                        <div class="ready__description">We buy great businesses. Understand what your business is worth and whether you’re ready to sell.</div>
+                        <div class="ready__description">Sell your business to sector specialists in less than 45 days</div>
                         <a href="" class="ready__link">Learn more</a>
                     </div>
                 </div>

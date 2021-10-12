@@ -2,8 +2,10 @@
 <svg width="1180px" height="348px" viewBox="0 0 1180 348" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>main-img</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#EBEBEB" x="75" y="0" width="966" height="78"></rect>
-        <rect id="Rectangle" fill="#EBEBEB" x="59" y="120" width="990" height="78"></rect>
-        <rect id="Rectangle" fill="#EBEBEB" x="218" y="241" width="615" height="78"></rect>
+        <g id="main-img" transform="translate(59.241895, 27.000000)" fill="#EBEBEB">
+            <rect id="Rectangle" x="50.7581053" y="0" width="921" height="78"></rect>
+        </g>
+        <rect id="Rectangle" fill="#EBEBEB" x="368" y="135" width="402" height="78"></rect>
+        <rect id="Rectangle" fill="#EBEBEB" x="169" y="254" width="836" height="75"></rect>
     </g>
 </svg>

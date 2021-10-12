@@ -106,7 +106,7 @@
         line-height: 24px
         letter-spacing: 0.02em
         margin: 0 auto
-        a
+        > a
             width: fit-content
             color: var(--text)
             line-height: 32px
@@ -117,15 +117,12 @@
             transition: 0.2s linear
             &:hover
                 background-position: top 50% right 0
-        .acquire &
-            text-align: left
     &__logos
-        display: flex
-        flex-wrap: wrap
-        align-items: center
         margin: 30px 0 0 0
         img
             margin: 0 20px 20px 0
+            &:last-child
+                margin: 0 0 20px 0
 
 @keyframes rollIn
     0%
@@ -181,7 +178,6 @@
         margin: 0 0 10px 0
     &__description
         max-width: 280px
-        min-height: 72px
         color: var(--text__light)
         line-height: 24px
         margin: 0 auto 52px auto
@@ -338,6 +334,13 @@
         max-width: 280px
         line-height: 24px
         margin: 0 auto
+
+.feature
+    &__item
+        margin: 0 0 20px 0
+    &__title
+        font-size: 16px
+        line-height: 24px
 
 .contact
     &__row
